@@ -31,14 +31,14 @@ let all = keys.concat(values)
 //4
 
 let types = {
-    num: [],
-    bool: [],
-    str: [],
-    obj: [],
+    number: [],
+    boolean: [],
+    string: [],
+    object: [],
 }
 
-all.filter(item => {
-    let key = typeof values
+values.filter(item => {
+    let key = typeof item
 
     if (types[key]) {
         types[key].push(item);
