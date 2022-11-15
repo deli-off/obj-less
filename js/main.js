@@ -4,9 +4,6 @@ const user = {
     age: 22,
     status: true,
     visa: ['Canada', 'USA', 'South Korea'],
-    fullname: function () {
-        return this.name + ' ' + this.surname
-    }
 }
 
 let passport = {
@@ -46,7 +43,6 @@ values.filter(item => {
 })
 
 console.log(types);
-
 
 
 
