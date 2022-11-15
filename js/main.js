@@ -3,7 +3,7 @@ const user = {
     surname: 'Xasanov',
     age: 22,
     status: true,
-    visa: ['Canada', 'USA', 'South Korea'],
+    visa: ['Canada', 'USA', 'South Korea']
 }
 
 let passport = {
@@ -31,7 +31,7 @@ let types = {
     number: [],
     boolean: [],
     string: [],
-    object: [],
+    object: []
 }
 
 values.filter(item => {
